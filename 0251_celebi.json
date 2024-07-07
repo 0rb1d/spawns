@@ -1,0 +1,40 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "celebi-1",
+            "pokemon": "celebi",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 0.8,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest",
+		    "#cobblemon:is_magical",
+		    "#minecraft:meadow",
+		    "#minecraft:old_growth_spruce_taiga",
+		    "#minecraft:cherry_grove",
+		    "#minecraft:flower_forest",
+		    "#minecraft:forest",
+		    "#minecraft:old_growth_pine_taiga",
+		    "#minecraft:swamp",
+		    "#minecraft:birch_forest",
+		    "#minecraft:mangrove_swamp",
+		    "#cobblemon:is_lush",
+		    "#minecraft:jungle",
+		    "#minecraft:old_growth_birch_forest",
+		    "#cobblemon:is_spring",
+		    "#minecraft:dark_forest"
+                ]
+            }
+        }
+    ]
+}

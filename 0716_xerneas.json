@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+      {
+          "id": "xerneas-1",
+          "pokemon": "xerneas",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "ultra-rare",
+          "level": "65-75",
+          "weight": 0.5,
+          "condition": {
+              "biomes": [
+                  "minecraft:flower_forest"
+              ],
+              "timeRange": "day"
+          }
+      }
+  ]
+}

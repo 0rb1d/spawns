@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "koraidon-1",
+            "pokemon": "koraidon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 0.4,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end",
+		    "#cobblemon:is_jungle"
+                ]
+            }
+        }
+    ]
+}

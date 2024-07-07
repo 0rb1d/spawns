@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "volcanion-1",
+            "pokemon": "volcanion",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "minecraft:basalt_deltas"
+                ]
+            }
+        }
+    ]
+}

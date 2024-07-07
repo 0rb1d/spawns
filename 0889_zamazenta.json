@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "zamazenta-1",
+      "pokemon": "zamazenta",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 0.6,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [ 
+          "#cobblemon:is_forest"
+        ]
+      }
+    }
+  ]
+}

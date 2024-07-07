@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+            "id": "pheromosa-1",
+            "pokemon": "pheromosa",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 0.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+		    "#cobblemon:is_magical",
+		    "#minecraft:cherry_grove",
+		    "#minecraft:flower_forest",
+		    "#minecraft:birch_forest",
+		    "#cobblemon:is_floral"
+                ]
+      }
+    },
+    {
+      "id": "pheromosa-2",
+      "pokemon": "pheromosa",
+      "presets": [
+        "natural"
+    ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 0.8,
+      "condition": {
+        "biomes": [ 
+          "#minecraft:is_end"
+         ]  
+      }
+    }
+  ]
+}

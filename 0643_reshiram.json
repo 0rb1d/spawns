@@ -1,0 +1,25 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "reshiram-1",
+            "pokemon": "reshiram",
+            "type": "pokemon",
+            "context": "grounded",
+            "presets": [
+                "natural"
+            ],
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_plains",
+                    "#minecraft:is_end"
+                ]
+            }
+        }
+    ]
+}
